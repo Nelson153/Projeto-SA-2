@@ -1,0 +1,173 @@
+/* ========================= layout ======================== */
+html, body, .capa {
+	height: 100%;
+}
+
+body {
+	background-color: #8b7575
+	linear-gradient(50deg,#8b616a,#7858a3);
+	background-attachment: fixed;
+}
+
+/* -- Barra de navegação -- */
+.img-logo {
+	height: 45px;
+	width: 132px;
+	display: block;
+	background: url('imagens/Logo.png') no-repeat;
+	background-size: contain;
+}
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a, footer .nav a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover {
+	color: #9bf0e1;
+	background: none;
+}
+
+/* -- Imagem de capa -- */
+.capa {
+	display: table;
+	width: 100%;
+}
+
+
+
+.texto-capa {
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* -- Botoes -- */
+.btn-custom {
+	color: white;
+	border-radius: 250px;
+	-webkit-border-radius: 250px;
+    -moz-border-radius: 250px;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+
+.btn-roxo {
+	background: #7c25f8;
+}
+.btn-roxo:hover {
+	background-color: #6207e3;
+	color: white;
+}
+
+.btn-branco {
+	border: 2px solid white;
+}
+.btn-branco:hover {
+	background-color: white;
+	color: black;
+}
+
+/* -- rodape -- */
+footer {
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+.item-rede-social{
+	float: right;
+}
+
+/* ========================= Tipografia ======================== */
+h1 {
+	font-size: 50px;
+	font-weight: 600;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+}
+
+#rodape h4 {
+	color: #919496;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.Imagem{
+	width: 300px;
+	margin: 150px auto;
+
+}
+
+
+
+
+
+
+
+
+
+.produtos {
+  display: flex;
+  justify-content: space-around;
+  /*flex-wrap: wrap; // Usado para deixar os elementos se agrupando a melhor performace, de acordo com que a pagina vai ficando piquena, esta Tag faz com que a pagina fique mais responsiva!!  */
+  flex-wrap: wrap;
+  /* flex-direction:row */
+}
+
+.produto {
+  cursor: pointer;
+}
+
+.produto p {
+  /* background: #d84c72; */
+  color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px 30px;
+}
+
+.prou{
+  background: none;
+}
+
+button{
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.botao{
+  display: inline-block;
+  margin: 1em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: rgb(18, 153, 40);
+  color: #fff;
+  border: 0;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 00.5em;
+  box-shadow: 1px 1px 0 1px rgb(0, 97, 8);
+
+  /* transition: box-shadow 0.3s ease, transform 0.3s ease; */
+}
+
+.botao:active{
+  box-shadow: 0 0 0 0 #930;
+}
+
+.botao:active{
+  box-shadow: 0 0 0 0 #930 inset 3px 3px 3px #930 ;
+  transform: translate(3px 3px );
+}
+
+/* .estilo{
+  text-align: center;
+} */
+
